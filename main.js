@@ -13,7 +13,7 @@ function modelLoaded(){
 
 function draw(){
 image(video,0,0,400,400)
-classifier.classiy(video,gotResults)
+classifier.classify(video,gotResults)
 }
 var previous_result = "";
 function gotResults(error,results){
